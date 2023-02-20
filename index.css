@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 255, 0.47);
+}
+
+form {
+    box-shadow: 0 0 30px white;
+    width: 50%;
+    height: 20vh;
+    padding: 0;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 30%;
+}
+
+input {
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main {
+    box-shadow: 0 0 20px white;
+    width: 50%;
+    height: 90vh;
+    margin-left: 10%;
+}
+
+#main {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 30%;
+}
